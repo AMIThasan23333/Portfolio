@@ -1,13 +1,18 @@
 import React from 'react'
 import "./Sidebar.css";
-
 import Logo from '../assets/logo.svg'
+
 const Sidebar = () => {
   return (
     <aside className='aside'>
-      <a href='#home' className='nav_logo'>
+     
+     
+    <div>
+    <a href='#home' className='nav_logo'>
         <img src={Logo} alt=''/>
       </a>
+    </div>
+     
 
       <nav className="nav">
         <div className="nav-menu">
@@ -65,7 +70,11 @@ const Sidebar = () => {
             </ul>
         </div>
       </nav>
-
+ 
+      
+      <div className='nav_footer'>
+        <span className='copyright'> &copy; 2023</span>
+      </div>
 
 
     </aside>

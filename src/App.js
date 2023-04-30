@@ -16,7 +16,7 @@ const App = () => {
     
     <Sidebar></Sidebar>
 
-    <main className='main'></main>
+    <main className='main'>
     <Home></Home>
      <About></About>
      <Services></Services>
@@ -26,6 +26,7 @@ const App = () => {
      <Testimonials></Testimonials>
      <Blog></Blog>
      <Contact></Contact>
+     </main>
 
     </>
   )
