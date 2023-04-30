@@ -44,6 +44,19 @@
 
   /* base  */
 
+  @media screen and (max-width : 1024px){
+
+   :root {
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1rem;
+    --h3-font-size: .825rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .775rem;
+    --smaller-font-size: .615rem;
+   }
+
+  }
+
   *{
     margin: 0;
     padding: 0;
@@ -74,11 +87,107 @@ body{
 h1,h2,h3 {
   color: var(--text-color);
   font-weight: var(--font-semibold);
+  line-height: 1.2;
 }
 
 ul{
   list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+
+}
+
+/* reusable css classes */
+
+.container{
+
+  max-width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+}
+.section{
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.section_title {
+
+  font-style: var(--h1-font-size);
+  margin-left: 0.874rem;
+  font-weight: var(--font-bold);
+  position: relative;
+  margin-bottom:3.7rem ;
+
+}
+
+.section_title::before {
+  content: ' ';
+  background: url("../src/Components/assets/dots-bg.svg");
+  height: 2.25em;
+  width: 2.25em;
+  position: absolute;
+  left: -0.875rem;
+  top: -0.875rem;
+
+}
+
+.btn{
+  padding: 0;
+  line-height: 1;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 1px rgb(0 0 0/ 0%);
+  border: 1px solid  transparent;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--first-color);
+  font-weight: var(--font-bold);
+
+}
+
+.btn:hover {
+
+  animation: button-push 0.3s linear 1;
+}
+
+
+@keyframes button-push {
+
+  50% {
+
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+    
+  }
   
 }
+
+
+
+
 
 
