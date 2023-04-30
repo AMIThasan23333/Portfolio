@@ -9,6 +9,7 @@ import Blog from './Components/Blog/Blog'
 import Pricing from './Components/Pricing/Pricing'
 import Contact from './Components/Contact/Contact'
 import Portfolio from './Components/Portfolio/Portfolio'
+import './App.css'
 
 const App = () => {
   return (
