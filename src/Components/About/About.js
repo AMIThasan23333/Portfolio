@@ -26,15 +26,55 @@ const About = () => {
          </div>
 
          <div className="about_skills grid">
-
+          {/*  */}
           <div className="skills_data">
-            <div className="skills_ttle">
-              <h3 className="skills_name">
-                
-              </h3>
+            <div className="skills_ttles">
+              <h3 className="skills_name">Photography  </h3>
+                    <span className="skills_number">
+                      60%
+                    </span>
+            </div>
+
+            <div className="skills_bar">
+              <span className="skills-percentage">
+
+              </span>
 
             </div>
           </div>
+
+          <div className="skills_data">
+            <div className="skills_ttles">
+              <h3 className="skills_name"> Ui Ux Design   </h3>
+                    <span className="skills_number ui_design">
+                      80%
+                    </span>
+            </div>
+
+            <div className="skills_bar">
+              <span className="skills-percentage">
+
+              </span>
+
+            </div>
+          </div>
+
+          <div className="skills_data">
+            <div className="skills_ttles">
+              <h3 className="skills_name"> Development  </h3>
+                    <span className="skills_number development">
+                      90%
+                    </span>
+            </div>
+
+            <div className="skills_bar">
+              <span className="skills-percentage">
+
+              </span>
+
+            </div>
+          </div>
+
          </div>
 
        </div>
