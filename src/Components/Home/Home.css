@@ -1,5 +1,5 @@
 .intro{
-    margin-left: 110px;
+    margin-left: 10px;
     max-width:540px ;
     /* background-color:antiquewhite; */
     text-align: center;
@@ -59,7 +59,7 @@
     font-style: var(--small-font-size);
 
 }
-
+/* important  */
 .mouse{
     border: 2px solid #454360;
     display: block;
@@ -69,5 +69,48 @@
     margin-top: .75rem;
     border-radius: 1rem;
     position: relative;
+
+}
+
+@keyframes ani-mouse {
+
+    0% {
+          top: 29%;       
+    }
+
+    15% {
+        top: 50%;       
+    }
+
+    50% {
+        top: 50%;       
+    }
+
+
+    100% {
+        top: 29%;       
+    }
+   
+
+    
+}
+
+
+
+
+/* important  */
+.wheel {
+
+    background-color: var(--title-color);
+    border-radius: 100%;
+    width: .25rem;
+    height: .2rem;
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ani-mouse 1s linear infinite;
+
+
 
 }
