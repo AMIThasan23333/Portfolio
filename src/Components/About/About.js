@@ -1,6 +1,7 @@
 import React from 'react'
 import "./About.css"
 import img from "../assets/avatar-2.svg"
+import AboutBox from './AboutBox'
 
 
 const About = () => {
@@ -28,7 +29,7 @@ const About = () => {
          <div className="about_skills grid">
           {/*  */}
           <div className="skills_data">
-            <div className="skills_ttles">
+            <div className="skills_titles">
               <h3 className="skills_name">Photography  </h3>
                     <span className="skills_number">
                       60%
@@ -36,7 +37,7 @@ const About = () => {
             </div>
 
             <div className="skills_bar">
-              <span className="skills-percentage">
+              <span className="skills_percentage photography">
 
               </span>
 
@@ -44,15 +45,15 @@ const About = () => {
           </div>
 
           <div className="skills_data">
-            <div className="skills_ttles">
+            <div className="skills_titles">
               <h3 className="skills_name"> Ui Ux Design   </h3>
-                    <span className="skills_number ui_design">
+                    <span className="skills_number">
                       80%
                     </span>
             </div>
 
             <div className="skills_bar">
-              <span className="skills-percentage">
+              <span className="skills_percentage ui_design">
 
               </span>
 
@@ -60,15 +61,15 @@ const About = () => {
           </div>
 
           <div className="skills_data">
-            <div className="skills_ttles">
+            <div className="skills_titles">
               <h3 className="skills_name"> Development  </h3>
-                    <span className="skills_number development">
+                    <span className="skills_number ">
                       90%
                     </span>
             </div>
 
             <div className="skills_bar">
-              <span className="skills-percentage">
+              <span className="skills_percentage development">
 
               </span>
 
@@ -80,6 +81,8 @@ const About = () => {
        </div>
 
       </div>
+
+      <AboutBox></AboutBox>
     </div>
 
 
