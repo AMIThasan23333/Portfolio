@@ -8,57 +8,29 @@ import Img2 from "../assets/service-2.svg"
 
 import Img3 from "../assets/service-3.svg"
 
-const Data = [
+const data = [
   {
     id: 1,
-    category: "education",
-    icon: "icon-graduation",
-    year: "2019 - present",
-    title: "Academic Degree",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    image: Img,
+    title: "UI/UX design",
+    description:
+      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
   },
   {
     id: 2,
-    category: "education",
-    icon: "icon-graduation",
-    year: "2013 - 2017",
-    title: "Bachelor's Degree",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    image: Img2,
+    title: "Web Development",
+    description:
+      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
   },
   {
     id: 3,
-    category: "education",
-    icon: "icon-graduation",
-    year: "2009 - 2013",
-    title: "Honours Degree",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
-  },
-  {
-    id: 4,
-    category: "experience",
-    icon: "icon-briefcase",
-    year: "2019 - present",
-    title: "Web Designer",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
-  },
-  {
-    id: 5,
-    category: "experience",
-    icon: "icon-briefcase",
-    year: "2013 - 2017",
-    title: "Front-End Developer",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
-  },
-  {
-    id: 6,
-    category: "experience",
-    icon: "icon-briefcase",
-    year: "2009 - 2013",
-    title: "Back-End Developer",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    image: Img3,
+    title: "Photography",
+    description:
+      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
   },
 ];
-
 const Services = () => {
   return (
     <section className='services container section' id='services'>
@@ -66,6 +38,24 @@ const Services = () => {
       <h2 className="section_title">
               Services
       </h2>
+
+      <div className="services_container grid">
+        {data.map(({id, image,title ,description }) => {
+
+          return (
+                 
+            <div className='services_card' key={id}>
+
+              <img src={image} alt="" srcset="" />
+
+              <h3 className="service_title">{title}</h3>
+              <p className="services_description">{description}</p>
+              
+            </div>
+             
+          )
+        } )}
+      </div>
     </section>
   )
 }
