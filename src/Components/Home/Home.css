@@ -1,5 +1,9 @@
 .intro{
     margin-left: 110px;
+    max-width:540px ;
+    /* background-color:antiquewhite; */
+    text-align: center;
+
 }
 
 .homes{
@@ -8,5 +12,62 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.homes_img {
+    margin-bottom: 1.5rem;
+
+}
+
+.home_name {
+
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+}
+
+
+.home_socials {
+    display: flex;
+    column-gap: 1.75rem;
+    margin: 1.5rem 0;
+
+}
+
+.home_social-link {
+    color: var(--title-color);
+    font-style: 1.3rem;
+    transition: .3s;
+
+}
+
+.home_social-link:hover {
+
+    color:  hsl(43, 100%, 68%);
+
+}
+
+.scroll_down{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    width: 100%;
+
+}
+
+.home_scroll-name{
+    font-style: var(--small-font-size);
+
+}
+
+.mouse{
+    border: 2px solid #454360;
+    display: block;
+    height: 1.6rem;
+    width: 1.2rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
 
 }
