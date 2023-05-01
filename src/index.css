@@ -132,9 +132,9 @@ img {
   padding-bottom: 2rem;
 }
 
-.section_title {
+.section_title{
 
-  font-style: var(--h1-font-size);
+  font-style: italic;
   margin-left: 0.874rem;
   font-weight: var(--font-bold);
   position: relative;
@@ -142,7 +142,7 @@ img {
 
 }
 
-.section_title::before {
+.section_title::before{
   content: ' ';
   background: url("../src/Components/assets/dots-bg.svg");
   height: 2.25em;
