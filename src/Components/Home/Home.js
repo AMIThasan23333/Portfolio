@@ -3,6 +3,7 @@ import "./Home.css"
 import me from '../../Components/assets/avatar-1.svg'
 import HeaderSocial from './HeaderSocial'
 import Scrolldown from './Scrolldown'
+import Shapes from './Shapes'
 const Home = () => {
   return (
     <section className='homes' id='home'>
@@ -17,6 +18,8 @@ const Home = () => {
         <a href='#contact' className='btn'> Hire Me </a>
         <Scrolldown></Scrolldown>
       </div>
+
+      <Shapes></Shapes>
 
 
 
