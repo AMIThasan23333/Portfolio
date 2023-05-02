@@ -5,9 +5,10 @@ import I2 from '../assets/avatar-2.svg';
 import I3 from '../assets/avatar-2.svg';
 
 
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-
-
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 
 
