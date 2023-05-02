@@ -60,7 +60,7 @@ const Testimonials = () => {
                 </div>
                 <h3 className="testimonials_title">{title}</h3>
                 <span className="subtitle">{subtitle}</span>
-                <div className="commnent">{comment}</div>
+                <div className="comment">{comment}</div>
 
 
                </div>
