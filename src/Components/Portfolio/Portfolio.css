@@ -17,6 +17,7 @@
 .work_item:hover {
 
     color: var(--first-color);
+    opacity: 1;
 }
 
 .work_container {
@@ -30,9 +31,9 @@
 .work_card  {
 
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: var(--border-radius);
-    box-shadow: var(-shadow);
+    box-shadow: var(--shadow);
 }
 
 .work_mask {
@@ -64,7 +65,7 @@
     border-bottom-left-radius: 0.98rem;
     border-bottom-right-radius:0.98rem;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 1.5rem;
     font-size: var(--small-font-size);
     display: inline-block;
@@ -115,7 +116,7 @@
 }
 
 .work_card:hover .work_title,
-.work_card:hover .work_title
+.work_card:hover .work_category
 {
     opacity: 1;
     transform: translateY(0);

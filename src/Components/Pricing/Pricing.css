@@ -1,0 +1,28 @@
+
+.pricing_container {
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.pricing_item {
+    padding: 1.75rem 2.25rem;
+    background-color: var(--container-color);
+    text-align: center;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+
+.pricing_plan{
+
+    margin: 1.25rem 0;
+    font-size: var(--h2-font-size);
+}
+
+
+.price {
+
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    
+}
