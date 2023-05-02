@@ -39,7 +39,8 @@ const Pricing = () => {
       </div>
 
 
-      <div className="pricing_item">
+      <div className="pricing_item best">
+        {/* <span className="badge">Recommended</span> */}
            <img src={Img3} alt="" srcset=""  className='pricing_img'  />
            <h3 className='pricing-plan'>Ultimate</h3>
             <p className='pricing_title'>A wise option for large companies and individuals </p>
