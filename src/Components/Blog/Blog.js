@@ -57,7 +57,7 @@ const Blog = () => {
           <div className="blog_details">
             <h3 className="blog_title">3 Things to know about startup business </h3>
             <div className="blog_meta">
-              <span></span>
+            <span>19 March 2023</span>
               <span className="blog_dot">
                 .
               </span>

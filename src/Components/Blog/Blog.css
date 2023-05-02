@@ -29,6 +29,51 @@
 
 .blog_thumb:hover .blog_img {
 
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
+.blog_category{
+
+    color: aliceblue;
+    background-color:var(--first-color);
+    border-bottom-left-radius: 0.98rem;
+    border-bottom-right-radius:0.98rem;
+    position: absolute;
+    top: 0px;
+    left: 1.5rem;
+    font-size: var(--small-font-size);
+    display: inline-block;
+    padding: 0.119rem 0.5rem;
+     transition: .3s;
+     z-index: 1;
+ 
+}
+
+.blog_details {
+
+    background-color: var(--container-color);
+    padding: 1.25rem;
+
+}
+
+.blog_title {
+
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.5rem;
+
+}
+
+.blog_title {
+
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.5rem;
+
+}
+
+.blog_meta {
+    display: flex;
+    column-gap: 0.6rem;
+    font-size: var(--small-font-size);
+    color: #8b88b1;
+    
+}
