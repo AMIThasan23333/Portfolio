@@ -6,7 +6,7 @@
     margin-bottom: 2.5rem;
 }
 
-.work_item {
+.work_item{
 
     cursor: pointer;
     font-weight: var(--font-bold);
@@ -30,7 +30,7 @@
 .work_card  {
 
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(-shadow);
 }
@@ -43,8 +43,20 @@
     top: 0;
     height: 100%;
     width: 100%;
+    opacity: 0;
+    transition: .3s;
+    opacity: 0;
+
+
 
 }
+
+.work_card:hover .work_mask {
+
+    opacity: .9;
+
+}
+
 .work_category {
 
     color: aliceblue;
@@ -58,6 +70,7 @@
     display: inline-block;
     padding: 0.19rem 0.625rem;
     transform: translateY(-40px);
+     transition: .3s;
     
 
 
@@ -93,9 +106,21 @@
     line-height: 42px;
     transition: .3s;
     opacity: 0;
+}
 
 
+.work_card:hover .work_button {
+    opacity: 1;
 
+}
+
+.work_card:hover .work_title,
+.work_card:hover .work_title
+{
+    opacity: 1;
+    transform: translateY(0);
 
 
 }
+
+
