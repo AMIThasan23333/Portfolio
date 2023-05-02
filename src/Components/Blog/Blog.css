@@ -1,0 +1,34 @@
+
+.blog_container{
+
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875rem;
+
+}
+
+.blog_card{
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+
+}
+
+
+.blog_thumb {
+
+    position: relative;
+    overflow: hidden;
+}
+
+.blog_img {
+
+    transform: scale(1);
+    transition: .3s;
+
+}
+
+.blog_thumb:hover .blog_img {
+
+    transform: scale(1.3);
+}
+

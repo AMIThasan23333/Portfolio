@@ -3,7 +3,7 @@ import './Testimonials.css'
 import I1 from '../assets/avatar-1.svg';
 import I2 from '../assets/avatar-2.svg';
 import I3 from '../assets/avatar-2.svg';
-
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -47,14 +47,27 @@ const Testimonials = () => {
 
       <h2 className="section_title">Clients & Reviews </h2>
 
-      <div className='testimonials_container grid'>
+      <Swiper   className='testimonials_container grid'
+       modules={[Pagination]}
+       spaceBetween={30}
+       slidesPerView={1}
+       loop={true}
+       grabCursor={true}
+       navigation
+       pagination={{ clickable: true }}
+       scrollbar={{ draggable: true }}
+       onSwiper={(swiper) => console.log(swiper)}
+       onSlideChange={() => console.log('slide change')}
+
+      
+    >
 
         {
           data.map(({id,image,title,subtitle,comment}) => {
 
             return (
           
-               <div className="testimonials_item" key={id}>
+               <SwiperSlide className="testimonials_item" key={id}>
 
                 <div className="thumb">
                   <img src={image} alt="" srcset="" />
@@ -64,13 +77,13 @@ const Testimonials = () => {
                 <div className="comment">{comment}</div>
 
 
-               </div>
+               </SwiperSlide>
 
             )
           })
         }
 
-      </div>
+      </Swiper>
     </section>
   )
 }
