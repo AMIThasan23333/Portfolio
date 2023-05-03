@@ -3,11 +3,9 @@ import "./About.css"
 import img from "../assets/avatar-2.svg"
 import AboutBox from './AboutBox'
 
-
 const About = () => {
-  return (
-    
-   
+
+  return (   
     <div className="section about container" id="about">
       <div className="section_title">About Me</div>
 
@@ -20,7 +18,7 @@ const About = () => {
          <div className="about_info">
 
           <p className="about_description">
-          I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.
+       Hi! My name is MD Golam Hasan. I am Frontend Developer, and I'm very passionate and dedicated to my work. With 1 year self experience as a frontend developer, I have acquired the skills and knowledge necessary to make your project a success.
 
           </p>
           <div className="btn">

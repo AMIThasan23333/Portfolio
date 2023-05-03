@@ -25,7 +25,7 @@ const Data = [
     },
     {
       id: 4,
-      category: "experience",
+      category: "courses",
       icon: "icon-briefcase",
       year: "2019 - present",
       title: "Web Designer",
@@ -33,7 +33,7 @@ const Data = [
     },
     {
       id: 5,
-      category: "experience",
+      category: "courses",
       icon: "icon-briefcase",
       year: "2013 - 2017",
       title: "Front-End Developer",
@@ -41,7 +41,7 @@ const Data = [
     },
     {
       id: 6,
-      category: "experience",
+      category: "courses",
       icon: "icon-briefcase",
       year: "2009 - 2013",
       title: "Back-End Developer",
