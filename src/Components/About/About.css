@@ -86,15 +86,27 @@
  
 
 }
-
-.ui_design{
-    width: 80%;
+.mongodb{
+    width: 62%;
+    background-color: rgb(163, 255, 76);
+}
+.express{
+    width: 75%;
     background-color: rgb(255,76, 96);
 
 }
 
-.photography {
-    width: 60%;
+.js{
+    width: 68%;
+    background-color: rgb(108,89, 192);
+}
+.node{
+    width: 73%;
+    background-color: rgb(138,129, 232);
+}
+
+.react {
+    width: 70%;
     background-color: rgb(108,109, 292);
 }
 

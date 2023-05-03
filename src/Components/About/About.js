@@ -23,21 +23,23 @@ const About = () => {
           I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.
 
           </p>
-          <a href="" className="btn">Download Cv  </a>
+          <div className="btn">
+                <a target="_blank" href="https://docs.google.com/document/d/1F_IzmWk1aaXjB8eKx5OdjRBhArQBWWAM6WphvUbfSEc/edit"><i className="fas fa-download"></i> Download Resume</a>
+            </div>
          </div>
 
          <div className="about_skills grid">
           {/*  */}
           <div className="skills_data">
             <div className="skills_titles">
-              <h3 className="skills_name">Photography  </h3>
+              <h3 className="skills_name"> React Js   </h3>
                     <span className="skills_number">
-                      60%
+                    70%
                     </span>
             </div>
 
             <div className="skills_bar">
-              <span className="skills_percentage photography">
+              <span className="skills_percentage react">
 
               </span>
 
@@ -46,14 +48,14 @@ const About = () => {
 
           <div className="skills_data">
             <div className="skills_titles">
-              <h3 className="skills_name"> Ui Ux Design   </h3>
+              <h3 className="skills_name"> Javascript   </h3>
                     <span className="skills_number">
-                      80%
+                      68%
                     </span>
             </div>
 
             <div className="skills_bar">
-              <span className="skills_percentage ui_design">
+              <span className="skills_percentage js">
 
               </span>
 
@@ -62,14 +64,46 @@ const About = () => {
 
           <div className="skills_data">
             <div className="skills_titles">
-              <h3 className="skills_name"> Development  </h3>
+              <h3 className="skills_name">Node Js   </h3>
+                    <span className="skills_number">
+                      73%
+                    </span>
+            </div>
+
+            <div className="skills_bar">
+              <span className="skills_percentage node">
+
+              </span>
+
+            </div>
+          </div>
+
+          <div className="skills_data">
+            <div className="skills_titles">
+              <h3 className="skills_name"> Express Js   </h3>
+                    <span className="skills_number">
+                      75%
+                    </span>
+            </div>
+
+            <div className="skills_bar">
+              <span className="skills_percentage express">
+
+              </span>
+
+            </div>
+          </div>
+
+          <div className="skills_data">
+            <div className="skills_titles">
+              <h3 className="skills_name"> Mongodb   </h3>
                     <span className="skills_number ">
-                      90%
+                      62%
                     </span>
             </div>
 
             <div className="skills_bar">
-              <span className="skills_percentage development">
+              <span className="skills_percentage mongodb">
 
               </span>
 
