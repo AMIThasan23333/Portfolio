@@ -1,19 +1,14 @@
 import React from 'react'
-
+import './Contact.css'
 const Contact = () => {
   return (
     
-    <div className="section continer section" id="contact">
- 
-
+    <div className="contact continer section"  id="contact">
         <h2 className="section_tittle">Get In Touch</h2>
-
         <div className="contact_container grid">
           <div className="contact-info">
             <h3 className="contact_title">Let's talk about everything !  </h3>
-              <p className="contact_details">
-                             Send me an Email 
-              </p>
+              <p className="contact_details">Send me an Email </p>
           
           </div>
 
