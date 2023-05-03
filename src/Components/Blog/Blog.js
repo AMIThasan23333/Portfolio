@@ -7,7 +7,7 @@ import I3 from '../assets/blog-3.svg';
 const Blog = () => {
   return (
    
-    <section className="blog container section" id="id">
+    <section className="blog container section" id="blog">
 
       <h2 className='section_title'>Latest Posts</h2>
 
