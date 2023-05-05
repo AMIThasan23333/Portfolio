@@ -12,6 +12,7 @@ const Menu = [
       image: Work1,
       title: "Project Management Illustration",
       category: "Design",
+      Link:"https://web.programming-hero.com/home/level2/",
     },
     {
       id: 2,

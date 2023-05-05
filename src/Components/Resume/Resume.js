@@ -16,7 +16,9 @@ const Resume = () => {
         if(val.category === 'education'){
 
           return ( <Card  key={id} icon={val.icon} title={val.title} 
-          year={val.year}  desc={val.desc}
+          year={val.year}  desc={val.desc} cp={val.cp} school={val.school}
+
+          technology1={val.technology1}
 
           
           />)
@@ -33,7 +35,7 @@ const Resume = () => {
         if(val.category === 'courses'){
 
           return ( <Card  key={id} icon={val.icon} title={val.title} 
-          year={val.year}  desc={val.desc}
+          year={val.year}  desc={val.desc} web={val.web}  
 
           
           />)
