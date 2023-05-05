@@ -4,8 +4,9 @@ const Contact = () => {
   return (
     
     <div className="contact continer section"  id="contact">
-        <h2 className="section_tittle">Get In Touch</h2>
+      
         <div className="contact_container grid">
+        <h2 className="section_tittle">Get In Touch</h2>
           <div className="contact-info">
             <h3 className="contact_title">Let's talk about everything !  </h3>
               <p className="contact_details">Send me an Email </p>

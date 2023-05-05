@@ -22,38 +22,47 @@ const Portfolio = () => {
       </h2>
 
       <div className="work_filters">
-        <span className='work_item'  onClick={() => setItems(Menu)}> Everything </span>
-        <span className='work_item'  onClick={() => filterItem('Creative')}>Creative </span>
+        <span className='work_item'  onClick={() => setItems(Menu)}> All Project  </span>
+        <span className='work_item'  onClick={() => filterItem('Doctors')}>Doctors </span>
 
-        <span className='work_item'  onClick={() => filterItem('Art')} >Art</span>
-        <span className='work_item'  onClick={() => filterItem('Design')}>Design</span>
-        <span className='work_item'  onClick={() => filterItem('Branding')}>Branding </span>
+        <span className='work_item'  onClick={() => filterItem('Digital-Electronics')} >Smart Home</span>
+        <span className='work_item'  onClick={() => filterItem('Edtech')}>Code Academy</span>
+        {/* <span className='work_item'  onClick={() => filterItem('Branding')}>Branding </span> */}
 
       </div>
 
       <div className="work_container grid">
-              {
+               {
                 items.map((elem) => {
-                  const {id,image,title,category, Link} = elem;
+                  const {id,image,title, Link, dsec, githubc, githubs} = elem;
                   return (
-                    <div className="work_card" key={id}>
-                      <div className="work_thumbnail">
-                        <img src={image} alt="" srcset="" />
-                        <div className="work_mask"></div>
-                      </div>
+                   <div class="wrapper">
+                  <div class="single-card">
+                  <div class="front">
+                        <img  className='img'  src= {image} alt=""  srcset="" />
+                  </div>
+                  <div class="back">
+                      <div class="content">
+                          <h2>{title}</h2>
 
-                      <span className='work_category'>{category}</span>
+                         <button className='btn'> <a href={Link}>Live Link</a> </button>
+                         <p className='btn'> <a href={githubc}>Client Link</a> </p>
 
-                      <h3 className='work_title'> {title}</h3>
-                   
+                        <p className='btn'> <a href={githubs}>Server Link</a> </p>
+
+
+                          <p>{dsec}.</p>
+                        
                       
-                    <button className='work'><i className="icon-link work_button-icon">{Link}</i></button>
-                       
+            </div>
+        </div>
+    </div>
+</div>
 
-                    </div>
                   )
                 })
-              }
+              } 
+
 
       </div>
     </div>

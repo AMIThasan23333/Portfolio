@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Sidebar.css";
 import Logo from '../assets/logo.svg'
 
 const Sidebar = () => {
+
+  const [toggle , ShowMenu] = useState(false)
+
+
+
+
   return (
   <>
   
-  <aside className='aside'>
+  <aside className={toggle ? "aside show-menu " : 'aside'}>
      
      
      <div>
@@ -77,13 +83,12 @@ const Sidebar = () => {
        <div className='nav_footer'>
          <span className='copyright'> &copy; 2023</span>
        </div>
- 
- 
      </aside>
 
-      <div className="nav_toggle">
+
+      <div className={toggle ? "nav_toggle nav_toggle-open" : "nav_toggle"}  onClick={() => ShowMenu(!toggle)}>
         <div className="icon-menu">
-          
+
         </div>
       </div>
 

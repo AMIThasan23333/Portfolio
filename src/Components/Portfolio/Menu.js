@@ -1,52 +1,44 @@
-import Work1 from '../assets/work-1.svg'
-import Work2 from '../assets/work-2.svg'
-import Work3 from '../assets/work-3.svg'
-import Work4 from '../assets/work-4.svg'
-import Work5 from '../assets/work-5.svg'
-import Work6 from '../assets/work-6.svg'
+import Work1 from '../assets/p1 (1).png'
+import Work2 from '../assets/p1 (2).png'
+import Work3 from '../assets/p1 (3).png'
+
 
 
 const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "Project Management Illustration",
-      category: "Design",
-      Link:"https://web.programming-hero.com/home/level2/",
+      title: "Doctors-Portal ",
+      category: "Doctors",
+      dsec:"Doctos Portal is a Medical website , where patient can book appoinrtment .We help hospitals save time and deliver meaningful care through a unified digital solution; streamlining administration, reducing costs and enhancing patient safety.",
+      Link:"https://fir-practice-8f286.web.app/",
+      githubc:"https://github.com/AMIThasan23333/MED",
+      githubs :"https://github.com/AMIThasan23333/Kelana-Jaya-Medical-Server"
     },
     {
       id: 2,
       image: Work2,
-      title: "Guest App Walkthrough Screens",
-      category: "Art",
+      title: "Smart-Home",
+      category: "Digital-Electronics",
+      dsec:"An E-commerce platform for buying high quality Smart Home Appliances at extremely affordable Price.  Here you will find all you need for your home ",
+      Link:"https://shome-shop.netlify.app/",
+      githubc:"https://github.com/AMIThasan23333/SmartHome",
+      
+
+
     },
     {
       id: 3,
       image: Work3,
-      title: "Delivery App Wireframe",
-      category: "Branding",
+      title: "Code-Academy",
+      category: "Edtech",
+      dsec:"An E-commerce platform for buying high quality Smart Home Appliances at extremely affordable Price.  Here you will find all you need for your home ",
+      Link :"https://code-academy-client.web.app/",
+      githubc:"https://github.com/AMIThasan23333/CodeAcademy-Client",
+      githubs :"https://github.com/AMIThasan23333/CodeAcademy-server"
     },
     
-    {
-      id: 4,
-      image: Work4,
-      title: "Onboarding Motivation",
-      category: "Design",
-    },
-    
-    {
-      id: 5,
-      image: Work5,
-      title: "iMac Mockup Design",
-      category: "Creative",
-    },
-    
-    {
-      id: 6,
-      image: Work6,
-      title: "Game Store App Concept",
-      category: "Art",
-    }
+  
   ];
 
 

@@ -190,3 +190,14 @@
     }
 
 }
+
+@media screen and (max-width: 576px) {
+
+    .about_container {
+
+        grid-template-columns: 390px;
+
+    }
+
+
+}

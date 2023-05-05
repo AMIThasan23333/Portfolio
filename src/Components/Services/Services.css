@@ -85,3 +85,10 @@
      
     }
 }
+
+@media screen and (max-width: 368px) {
+    .services_container {
+      grid-template-columns: 1fr;
+
+    }
+}

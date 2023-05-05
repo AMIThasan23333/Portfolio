@@ -61,3 +61,33 @@
     resize: none;
     
 }
+
+
+@media screen and (max-width: 1024px) {
+    .contact_container {
+      grid-template-columns:repeat(2, 330px);
+      justify-content: center;
+       gap: 1.875rem;
+    }
+ 
+}
+@media screen and (max-width: 768px) {
+    .contact_container {
+      grid-template-columns: 310px;
+
+    }
+
+    .contact_info {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 368px) {
+    .contact_container {
+      grid-template-columns: 1fr;
+
+    }
+
+
+}
